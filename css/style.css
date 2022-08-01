@@ -1,0 +1,232 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: 000;
+  background-image: url('../img/Photo1.jpg');
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 1920px;
+  height: 80px;
+  background-color: rgba(0, 91, 193, 0.6);
+}
+
+.preview {
+  width: 1920px;
+  height: 720px;
+}
+
+.logo-portal {
+  width: 140px;
+  height: 58px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  margin-left: 40px;
+}
+
+.navigation {
+  display: inline-block;
+  margin-left: 555px;
+  margin-top: 31px;
+}
+
+/* .nav-list {
+
+} */
+
+.nav-list a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  float: left;
+ 
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.offer {
+  width: 735px;
+  height: 317px;
+  margin: 202px 690px 201px 595px;
+  background: rgba(0, 91, 193, 0.6);
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.text1 {
+  width: 445px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 160px;
+  height: 51px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 15px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.places {
+  width: 1110px;
+  height: 520px;
+  margin-top: 150px;
+  margin-left: 405px;
+  margin-bottom: 150px;
+}
+
+.decor1 {
+  padding: 0;
+}
+
+.projects {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  padding-right: 600px;
+  padding-bottom: 70px;
+  margin: 0;
+}
+
+.slider {
+  display: inline-block;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo9 {
+  width: 540px;
+  position: relative;
+}
+
+.photo5 {
+  width: 540px;
+  position: relative;
+}
+
+.olimp {
+  width: 250px;
+  height: 110px;
+  background-color: #fff;
+  position: absolute;
+  left: 670px;
+  top: 1355px;
+}
+
+.title-olimp {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  padding-left: 25px;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 14px;
+}
+
+.text-olimp {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+
+.olimp2 {
+  width: 250px;
+  height: 110px;
+  background-color: #fff;
+  position: absolute;
+  left: 1240px;
+  top: 1355px;
+}
+
+.title-olimp2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.text-olimp2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+  margin: 0;
+  padding-top: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
