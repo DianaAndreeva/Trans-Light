@@ -11,7 +11,6 @@ body {
 }
 
 ul, li {
-  list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
@@ -45,6 +44,7 @@ a {
   display: inline-block;
   margin-left: 555px;
   margin-top: 31px;
+  list-style-type: none;
 }
 
 /* .nav-list {
@@ -140,9 +140,10 @@ a {
 
 .slider {
   display: inline-block;
+  padding-top: 10px;
 }
 
-.photo {
+.photo-pack1 {
   display: flex;
   justify-content: space-between;
 }
@@ -229,4 +230,339 @@ a {
   padding-top: 14px;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.catalog {
+  width: 1110px;
+  height: 505px;
+  margin-left: 405px;
+  margin-bottom: 160px;
+}
+
+.production {
+  font-family: 'Oswald';
+  display: inline-block;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 0;
+}
+
+.choice-robe-compulite {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.robe{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #005BC1;
+  padding-right: 45px;
+  text-decoration: underline;
+}
+
+.compulite {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+}
+
+.frame1 {
+  width: 265px;
+  height: 86px;
+  background: #005BC1;
+  position: absolute;
+  left: 490px;
+  top: 2024px;
+}
+
+.text-photo6 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 21px;
+  padding-right: 36px;
+}
+
+.frame2 {
+  width: 265px;
+  height: 86px;
+  position: absolute;
+  background: #005BC1;
+  left: 870px;
+  top: 2024px;
+}
+
+.text-photo7 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding-left: 21px;
+  padding-right: 130px;
+  padding-top: 30px;
+}
+
+.frame3 {
+  width: 265px;
+  height: 86px;
+  position: absolute;
+  background: #005BC1;
+  left: 1250px;
+  top: 2024px;
+}
+
+.text-photo8 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding-left: 21px;
+  padding-right: 130px;
+  padding-top: 30px;
+}
+
+.photo6 {
+  width: 350px;
+  position: relative;
+}
+
+.photo7 {
+  width: 350px;
+  position: relative;
+}
+
+.photo8 {
+  width: 350px;
+  position: relative;
+}
+
+.rent {
+  width: 1110px;
+  height: 478px;
+  margin-left: 405px;
+  margin-bottom: 138px;
+}
+
+.rent-text {
+  display: inline-block;
+  padding-left: 40px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 0;
+  position: relative;
+}
+
+.rent-text2 {
+  width: 350px;
+  height: 172px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #343434;
+  margin: 0;
+  padding-top: 150px;
+  position: relative;
+}
+
+.rent-block {
+  width: 665px;
+  height: 394px;
+  border: 3px solid #005BC1;
+  position: absolute;
+  left: 850px;
+  top: 2359px;
+}
+
+.article-new {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  padding-left: 30px;
+  padding-right: 56px;
+  position: relative;
+  margin-top: 42px;
+}
+
+.rent-slider {
+  position: absolute;
+  left: 520px;
+  top: 30px;
+}
+
+.pic8 {
+  width: 285px;
+  height: 250px;
+  position: relative;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.rent-list {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.rent-article {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  position: absolute;
+  left: 300px;
+  top: 80px;
+  padding-left: 25px;
+}
+
+.rent-li {
+  line-height: 35px;
+}
+
+.news {
+  width: 1110px;
+  height: 363px;
+  margin-left: 405px;
+}
+
+.news-article {
+  display: inline-block;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  padding-left: 40px;
+  padding-right: 661px;
+  margin: 0;
+  position: relative;
+}
+
+.btn2 {
+  width: 190px;
+  height: 51px;
+  display: block;
+  border: 2px solid #005BC1;
+  background: #005BC1;
+  position: absolute;
+  left: 1325px;
+  top: 2902px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 14px;
+}
+
+.news_main-item {
+  width: 540px;
+  height: 242px;
+  padding-top: 77px;
+}
+
+.photo2 {
+  width: 255px;
+  height: 242px;
+}
+
+.news-article2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+}
+
+.date {
+
+}
+
+.news-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+}
+
+.btn3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #343434;
+}
+
+.ollolo {
+
 }
