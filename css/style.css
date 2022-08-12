@@ -479,6 +479,7 @@ a {
   width: 1110px;
   height: 363px;
   margin-left: 405px;
+  margin-bottom: 120px;
 }
 
 .news-article {
@@ -518,15 +519,27 @@ a {
   padding-top: 14px;
 }
 
+.news-row {
+  display: flex;
+  margin-top: 77px;
+}
+
 .news_main-item {
   width: 540px;
   height: 242px;
-  padding-top: 77px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
 }
 
 .photo2 {
   width: 255px;
   height: 242px;
+  
+}
+
+.info-milos {
+  padding-left: 20px;
 }
 
 .news-article2 {
@@ -538,10 +551,22 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #343434;
+  margin: 0;
+  position: relative;
+  padding-bottom: 42px;
 }
 
 .date {
-
+  position: absolute;
+  top: 3010px;
+  left: 833px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #979797;
 }
 
 .news-text {
@@ -551,6 +576,9 @@ a {
   font-size: 14px;
   line-height: 19px;
   color: #343434;
+  width: 255px;
+  height: 133px;
+  margin: 0;
 }
 
 .btn3 {
@@ -561,8 +589,209 @@ a {
   line-height: 19px;
   text-decoration-line: underline;
   color: #343434;
+  display: flex;
+  align-items: flex-end;
+  width: 139px;
+  padding-top: 21px;
 }
 
-.ollolo {
+.news_item2016 {
+  width: 255px;
+  height: 248px;
+  margin-right: 60px;
+}
 
+.article2, .article-robe {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.news-text2 {
+  width: 255px;
+  height: 38px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.photo-date {
+  display: flex;
+}
+
+.photo3, .photo4 {
+  width: 128px;
+  height: 115px;
+}
+
+.date2 {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #979797;
+}
+
+.footer {
+  width: 1920px;
+  height: 255px;
+  border: 1px solid #005BC1;
+  background-color: #005BC1;
+}
+
+.footer-content {
+  margin-left: 405px;
+  margin-right: 405px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+}
+
+.tel {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 10px;
+  }
+
+.address {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.email {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+.line1 {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.button1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.button2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 110px;
+  opacity: 0.9;
+}
+
+.button3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 139px;
+  opacity: 0.9;
+}
+
+.button-set {
+  padding-top: 10px;
+}
+
+.button4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.button5 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 134px;
+  opacity: 0.9;
+}
+
+.button6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 141px;
+  opacity: 0.9;
+}
+
+.line2 {
+  color: #fff;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.authors {
+  display: flex;
+}
+
+.translite {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-right: 585px;
+  opacity: 0.9;
+}
+
+.developers {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.9;
 }
